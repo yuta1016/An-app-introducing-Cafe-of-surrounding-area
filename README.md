@@ -1,16 +1,33 @@
-# namer_app
+# 周辺カフェ表示アプリ
 
-A new Flutter project.
+このアプリは、現在地の周辺にあるカフェを検索し、地図上に表示するアプリです。
 
-## Getting Started
+## 機能
 
-This project is a starting point for a Flutter application.
+* 現在地の周辺にあるカフェを検索
+* 検索結果を地図上に表示
+* カフェの詳細情報（店名、住所、営業時間、評価など）を表示
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 使い方
+
+1.  アプリを起動します。
+2.  現在地の利用を許可します。
+3.  地図上に周辺のカフェが表示されます。
+
+
+## 開発環境
+
+* Flutter
+* Dart
+* Google Maps API
+* （バックエンドで使用している技術）
+
+
+このアプリでは、以下の環境変数を使用します。
+
+* GOOGLE_MAPS_API_KEY：Google Maps APIのAPIキー
+* （バックエンドのAPIキーやエンドポイントなど）
+
+環境変数は、`.env`ファイルに記述してください。
